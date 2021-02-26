@@ -99,7 +99,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "loaded_checkpoint",
         help="path to checkpoint to be loaded",
-        default="/home/hmazhar/repos/omni_isaac_sim/source/python_samples/eval_log/best_model.zip",
+        default="",
         nargs="?",
         type=str,
     )
